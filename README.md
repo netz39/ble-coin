@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/maz3max/ble-coin.svg?branch=master)](https://travis-ci.org/maz3max/ble-coin)
 # BLE Keyfob Authentication (PROJECT STATUS: DEPLOYED)
 The purpose of this project is to provide members of the [NETZ39 Hackerspace](http://www.netz39.de/) a new, (sufficiently) secure and easy-to-use way to unlock the door of the Hackerspace.
 
@@ -58,7 +57,7 @@ Both peripherals and the central kill the connection after a short timeout (5s).
 * Denial of Service cannot easily be cancelled out when using BLE.
 * Like legacy-keys made out of metal, one of the BLE keys could be stolen and misused. (Authentication by ownership)
 * Parts are not super-cheap: The central costs 10€ and one keyfob cost 5.50€
-* NRF52 Access Port Protection is broken: https://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/ 
+* NRF52 Access Port Protection is broken: https://limitedresults.com/2020/06/nrf52-debug-resurrection-approtect-bypass/
 
 ## FAQ
 * Why BLE?
