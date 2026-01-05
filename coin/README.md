@@ -4,7 +4,7 @@ This directory contains the firmware that creates a **BLE peripheral** loading t
 ## Usage
 Please refer to the top level README file for flashing instructions. Especially, this firmware will **not** work properly when flashed onto a virgin, mass-erased chip, because the **settings partition** needs to be flashed too.
 
-Flashing can be done [using a BlackMagic Probe](https://github.com/blacksphere/blackmagic/wiki) or [using an STLinkV2 with OpenOCD](https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004).
+Flashing can be done [using a BlackMagic Probe](https://github.com/blacksphere/blackmagic/wiki) or [using an STLinkV2 with OpenOCD](https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004) or [using a Raspberry Pi Zero W and a flashing jig](../flashing-jig/README.md).
 
 Please note that you will not be able to lift the **Access Port Protection** with an STLinkV2. That means the coins are **locked down** from flashing until you get another flash tool. Don't worry - some STLinkV2 clones can be turned into BlackMagic Probes if they have sufficient (128K) flash. You could also buy a real BlackMagic Probe, an FT2232H breakout board or a SEGGER JLink. It is possible to [remove the nRF52 Flash Protection with a Raspberry Pi](https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004).
 
